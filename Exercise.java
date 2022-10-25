@@ -127,5 +127,54 @@ public class Exercise {
             }
         }
     }
+        // WORD 9
+        System.out.println("");
+        System.out.println("9. WORD 9");
+        for (int rows = 0; rows < 4; rows++){
+            System.out.println(" ");
+            for (int columns = 0; columns < 4; columns++){
+
+                if (rows == 1 && (columns == 1 || columns == 2)){
+                System.out.print(" ");
+            }
+            else if (rows == 2 && (columns == 1 || columns == 2)){
+
+                System.out.print(" ");
+            }
+            else{
+                System.out.print(mdArray[rows][columns]);
+            }
+            
+        }
+    }
+            // WORD 9
+        System.out.println("");
+        System.out.println("10. WORD 10");
+        for (int rows = 0; rows < 4; rows++){
+            System.out.println(" ");
+            for (int columns = 0; columns < 4; columns++){
+        
+                if (rows == 0 && (columns == 1 || columns == 2)){
+                        System.out.print(" ");
+                    }
+            else if (rows == 1 && (columns == 0 || columns == 3)){
+        
+                        System.out.print(" ");
+            }
+            else if (rows == 2 && (columns == 0 || columns == 3)){
+        
+                        System.out.print(" ");
+                    }
+            else if (rows == 3 && (columns == 1 || columns == 2)){
+        
+                        System.out.print(" ");
+                    }
+                else{
+                        System.out.print(mdArray[rows][columns]);
+                    }
+                    
+                }
+
+    }
 }
 }
