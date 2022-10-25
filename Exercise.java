@@ -74,7 +74,7 @@ public class Exercise {
             for (int rows = 0; rows < 4; rows++){
 
                 if (columns == 0)
-                System.out.print(mdArray[rows][columns]);
+                System.out.println(mdArray[rows][columns]);
             
             else {
 
@@ -89,7 +89,7 @@ public class Exercise {
             for (int rows = 0; rows < 4; rows++){
 
                 if (columns == 1)
-                System.out.print(mdArray[rows][columns]);
+                System.out.println(mdArray[rows][columns]);
             
             else {
 
@@ -104,7 +104,7 @@ public class Exercise {
             for (int rows = 0; rows < 4; rows++){
 
                 if (columns == 2)
-                System.out.print(mdArray[rows][columns]);
+                System.out.println(mdArray[rows][columns]);
             
             else {
 
@@ -119,7 +119,7 @@ public class Exercise {
             for (int rows = 0; rows < 4; rows++){
 
                 if (columns == 3)
-                System.out.print(mdArray[rows][columns]);
+                System.out.println(mdArray[rows][columns]);
             
             else {
 
